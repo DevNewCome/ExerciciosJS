@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro funcionario</h1>
+        <label for="">Nome</label>
+            <input type="text" id="inName" required>   
+        <label for="">PIS/NIS</label>
+            <input type="text" id="inPis" required> 
+        <label for="">Data de inicio</label>
+            <input type="date" id="inData" required>
+        <button id="btnCadastrar">Cadastrar</button>
+    </div>
+    <div class="containerPesquisa">
+          <label for="">Pesquisar pelo nome:
+            <input type="text" id="inNomePesquisa">
+            <button id="btnPesquisa">Pesquisar</button>
+            <button id="btnEditar">Editar</button>
+          </label>
+    </div>
+    <div class="containerFunc">
+        <h3 class="resp"></h3>
+    </div>
+</body>
+</html>

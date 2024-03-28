@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+   
+    <title>Document</title>
+</head>
+<body>
+    <div id="containerPai">
+        <div class="titulo">
+            <h1>Pedido</h1>
+        </div>
+        <div class="containerPedido">
+            <div class="contentRadio">
+                <label for="tipo"><input type="radio" name="tamanho" required value="8"> PIZZA 8 PEDAÇOS</label>
+                <label for="tipo"><input type="radio" name="tamanho" required value="12" > PIZZA 12 PEDAÇOS</label>
+            </div>
+            <div class="container-end">
+                <p>Endereço: <input type="text" id="endereco"></p> 
+            </div>
+            <div class="contentSabor">
+                <label for="sabor"><select  id="idSabor">
+                    <option name="sabores" value="frangocatupiry">Frango/Catupiry</option>
+                    <option name="sabores" value="mussarela">Mussarela</option>
+                    <option name="sabores" value="4queijos">4 Queijos</option>
+                    <option name="sabores" value="cachorroQuente">Cachorro Quente</option>
+                    <option name="sabores" value="chocolate">Chocolate</option>
+                    <option name="sabores" value="calabresa">Calabresa</option>
+                </select></label>
+            </div>
+            <button id="addPedido">Adicionar pedido</button>
+            <button id="cadastro">Deseja cadastrar ?</button>
+            <div class="containerPedido">
+                <div class="content">
+                    <p for="" class="list"></p>
+                </div>
+            </div>
+            <button id="finalizarPedido">Finalizar Pedido</button>
+            <strong id="valor"></strong>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#resp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+}

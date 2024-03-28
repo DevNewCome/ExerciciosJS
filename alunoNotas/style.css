@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.container-pesquisa{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border: 2px solid red;
+}
+
+.title{
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+
+.container-aluno p{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-area{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+margin-top: 1rem;
+margin-bottom: 1rem;
+margin-left: 2rem;
+gap: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+ul li{
+    margin-bottom: 1rem;
+}
+
+.scroll-box{
+    width: 300px; /* Largura máxima da caixa */
+    height: 400px; /* Altura máxima da caixa */
+    overflow: auto; /* Adicionar barra de rolagem quando o conteúdo exceder as dimensões */
+    border: 1px solid #ccc; /* Adicionar uma borda para tornar visível */
+}

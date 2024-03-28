@@ -1,0 +1,11 @@
+form{
+    border: 2px solid red;
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 30px);
+}
+

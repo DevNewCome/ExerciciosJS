@@ -1,0 +1,30 @@
+.containerPesquisa{
+    display: flex;
+}
+
+#btnPesquisa{
+    width: 200px;
+    height: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container label{
+    display: flex;
+    
+}
+
+.container input{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+#btnCadastrar{
+    width: 100px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

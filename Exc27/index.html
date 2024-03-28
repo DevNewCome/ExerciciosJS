@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <label for="Nome">Nome Candidato:
+        <input type="text" required id="nomeCandidato">
+    </label>
+    <label for="Nota">Nota do candidato
+        <input type="number" required min="0" id="notaCandidato">
+    </label>
+    <button onclick="adicionar()">Adicionar</button>
+    <button onclick="aprovados()">Aprovados</button>
+    <div class="container">
+        <span class="resultado"></span>
+    </div>
+</body>
+</html>

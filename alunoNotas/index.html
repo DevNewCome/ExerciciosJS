@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="container-menu">
+            <h1 class="title">Gerenciador de notas</h1>
+            <div class="container-aluno">
+                <p>Aluno:<input type="text" id="inNome"   required></p>
+                <p>Serie:<input type="text" id="inSerie"   required></p>
+                <p>Notas:<input type="number" id="inNota1" required></p>
+                <p>Notas:<input type="number" id="inNota2" required></p>
+                <p>Notas:<input type="number" id="inNota3" required></p>
+                <div class="btn-area">
+                    <button id="btnAddAluno">Registrar Nota</button>
+                    <button id="btnProcurarAluno">Procurar Aluno</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-pesquisa hide">
+            <p>Nome do aluno</p>
+            <input type="text" id="nomePesquisa">
+            <button id="btnPesquisar">Pesquisar</button>
+            <button id="btnVoltar" onclick="voltar()">Voltar</button>
+            <h1>Lista de alunos</h1>
+              <div class="scroll-box">
+                    
+              </div>
+        </div>
+</body>
+</html>

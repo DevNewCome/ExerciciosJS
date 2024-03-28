@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Revenda Herbie</h1>
+        <div class="container">
+            <div class="inputs">
+                <label for="">Modelo:</label>
+                <input type="text" required placeholder="Modelo:" id="inModelo">
+                <label for="">Preço</label>
+                <input type="text" id="inPreco" required placeholder="valor">
+                <label for="">Ano Veiculo</label>
+                <input type="text" id="inAno" required placeholder="Ano do veiculo">
+                <button id="btnAdd">Adicionar</button>
+            </div>
+            <div class="btns">
+                <button id="btnListar">Listar todos</button>
+                <button id="btnFiltrarPreco">Filtrar por preço</button>
+                <button id="btnSimularPromocao">Simular promoção</button>
+            </div>
+            <div class="listaContainer">
+                <h1>Lista de Carros Cadastrados</h1>
+                <span>------------------------------------------------------------------</span>
+                <ul id="listaCarros">
+                   <li id=""></li>
+                </ul>
+            </div>
+        </div>
+</body>
+</html>
